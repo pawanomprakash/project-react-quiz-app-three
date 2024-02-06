@@ -45,13 +45,12 @@ export default function QuizComponent() {
         setQuestion(quizQuestions[0])}
     }
 
-    const navigate=useNavigate();
 
   return (
         <div id="quizComponent">
         <div id="container">
             <h1 id="quizComponentHeading">Question</h1>
-            <p id="questionNum">{qNo+1} of 15  {score}</p>
+            <p id="questionNum">{qNo+1} of 15 </p>
             <p id="question">{question.question}</p>
             <div id="options-container">
                 <button className="options" onClick={alertAnswer}>{question.optionA}</button>
