@@ -1,5 +1,6 @@
 body{
     background-color: #47398d;
+    color : black;
 }
 #resultComponent,#homeComponent,#quizComponent{
     display: flex;
